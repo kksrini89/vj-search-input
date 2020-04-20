@@ -1,0 +1,27 @@
+{
+  "name": "vj-search-input",
+  "version": "1.0.0",
+  "description": "Vanilla JavaScript Web Component for Search Input",
+  "main": "dist/vj-search-input.cjs.js",
+  "module": "dist/vj-search-input.esm.js",
+  "browser": "dist/vj-search-input.umd.js",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kksrini89/vj-search-input.git"
+  },
+  "author": "Srinivasan K K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kksrini89/vj-search-input/issues"
+  },
+  "homepage": "https://github.com/kksrini89/vj-search-input#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.1.0",
+    "@rollup/plugin-node-resolve": "^7.1.3",
+    "rollup": "^2.6.1"
+  }
+}
